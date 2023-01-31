@@ -11,14 +11,10 @@ def navigation():
     route = utl.get_current_route()
     if route == "home":
         home.load_view()
-    elif route == "about":
-        about.load_view()
+    elif route == "search":
+        search.load_view()
     elif route == "analysis":
         analysis.load_view()
-    elif route == "options":
-        options.load_view()
-    elif route == "configuration":
-        configuration.load_view()
     elif route == None:
         home.load_view()
         
