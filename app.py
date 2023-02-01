@@ -1,3 +1,5 @@
+# 홈
+
 import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
@@ -19,7 +21,7 @@ selected3 = option_menu(None, ["🏠Home", "🔎전월세 검색",  "📊전세 
     }
 )
 
-# 홈탭
+# 홈 탭
 if selected3 == "🏠Home":
     st.subheader('홈페이지')
     data = pd.read_csv('data/bds_data.csv', encoding='cp949')
