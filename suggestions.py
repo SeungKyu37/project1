@@ -1,3 +1,5 @@
+# 건의사항 탭
+
 import streamlit as st
 
 def run_suggestions():
