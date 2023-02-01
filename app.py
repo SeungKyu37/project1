@@ -25,7 +25,19 @@ selected3 = option_menu(None, ["🏠Home", "🔎전월세 검색",  "📊전세 
 if selected3 == "🏠Home":
     st.subheader('홈페이지')
     data = pd.read_csv('data/bds_data.csv', encoding='cp949')
-    st.write(data.head())
+
+    df_sample = data[['SGG_NM', 'BJDONG_NM']]
+    st.write(df_sample)
+    # st.write(df_sample)
+    data2 = {'주소':data[['SGG_NM']],
+            '행정동':data[['BJDONG_NM']]
+            # 'counts':data[['BJDONG_NM']==data2{'행정동'}].value_counts
+            }
+    st.write(data2)
+    st.write(type(data2))
+    st.write(df_sample.value_counts())
+    df_sample.value_counts().groupby(level=[0,1])
+    st.write(df_sample)
 
 # 전월세 검색 탭
 elif selected3 == "🔎전월세 검색":

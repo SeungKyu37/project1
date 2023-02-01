@@ -62,7 +62,7 @@ def run_search():
         rent_area_max = rent_area_select[1] * 3.3058
         rent_area_search = (data['RENT_AREA'] >= rent_area_min) & (data['RENT_AREA'] <= rent_area_max)
 
-        # data_searc에 검색한 값들만 데이터 추출
+        # data_search에 검색한 값들만 데이터 추출
         data_search = data[gu_search & dong_search & type_search & rent_gtn_search & rent_fee_search & rent_area_search]
 
         # 층 칼럼 접미사로 '층' 추가
