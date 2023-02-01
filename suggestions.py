@@ -48,6 +48,7 @@ def run_suggestions():
     with st.expander("문의하기"):
         form = st.form(key="annotation")
         with form:
+            create_tb()
             cols = st.columns((1,1))
             author = cols[0].text_input("작성자명 ", max_chars = 4)
             email = cols[1].text_input("이메일 ")
@@ -56,8 +57,7 @@ def run_suggestions():
             submit = st.form_submit_button(label="작성")
             date = time.strftime('%Y.%m.%d %H:%M')
 
-            if submit:
-                create_tb()
+            if submit: 
                 add_data(author, email, title, comment, date)
                 st.success("문의하신 내용이 접수되었습니다!")
                 st.balloons()

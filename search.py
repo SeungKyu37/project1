@@ -79,12 +79,12 @@ def run_search():
 
         # 주소에 아파트, 오피스텔이 들어간 글자 삭제 후 건축용도를 주소에 삽입
         data_search['BLDG_NM'] = data_search['BLDG_NM'].str.replace('아파트', '')
-        data_search['BLDG_NM'] = data_search['BLDG_NM'].str.replace('오피스텔', '')                                 
+        data_search['BLDG_NM'] = data_search['BLDG_NM'].str.replace('오피스텔', '')                             
         cols1 = ['SGG_NM', 'BJDONG_NM', '번지', 'BLDG_NM', 'HOUSE_GBN_NM', 'FLR_NO']
         data_search['주소'] = data_search[cols1].apply(lambda row:' '.join(row.values.astype(str)),axis=1)
 
         # 필요 없는 칼럼 삭제
-        data_search = data_search.drop(['A', 'SGG_NM', 'BJDONG_NM', 'BOBN', 'BUBN', 'FLR_NO', 'BLDG_NM', '번지', 'HOUSE_GBN_NM'], axis=1)
+        data_search = data_search.drop(['SGG_NM', 'BJDONG_NM', 'BOBN', 'BUBN', 'FLR_NO', 'BLDG_NM', '번지', 'HOUSE_GBN_NM'], axis=1)
 
         # 임대면적 칼럼 제곱미터 값을 평 값으로 변환하는 식
         data_search['RENT_AREA'] = data_search['RENT_AREA'].apply(lambda x: math.trunc(x / 3.3058))
