@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 
 def run_predict():
     st.title('전세 예측')
-    df = pd.read_csv('data/bds_data.csv', encoding='cp949')
+    df = pd.read_csv('where_is_my_room/data/bds_data.csv', encoding='cp949')
     
     a = np.array(df['SGG_NM'].unique())
     gu = st.multiselect('지역구 선택',a ,default='강남구')
