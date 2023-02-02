@@ -24,7 +24,7 @@ selected3 = option_menu(None, ["🏠Home", "🔎전월세 검색",  "📊전세 
 
 # 홈 탭
 if selected3 == "🏠Home":
-    data = pd.read_csv("where_is_my_room/data/bds_data.csv", encoding='cp949')
+    data = pd.read_csv("/data/bds_data.csv", encoding='cp949')
     data2 = data.copy()
 
     # 실거래 현황
