@@ -29,8 +29,8 @@ if selected3 == "🏠Home":
     if uploaded_file is not None:
         file_name = uploaded_file
     else:
-        file_name = "data/bds_data.csv"
-    data = pd.read_csv('data/bds_data.csv', encoding='cp949')
+        file_name = "DatabaseSample.xlsx"
+    data = pd.read_csv(file_name, encoding='cp949')
     data2 = data.copy()
 
     # 실거래 현황
