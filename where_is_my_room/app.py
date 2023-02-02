@@ -24,13 +24,7 @@ selected3 = option_menu(None, ["🏠Home", "🔎전월세 검색",  "📊전세 
 
 # 홈 탭
 if selected3 == "🏠Home":
-    uploaded_file = st.file_uploader(
-        "Choose your database", accept_multiple_files=False)
-    if uploaded_file is not None:
-        file_name = uploaded_file
-    else:
-        file_name = "DatabaseSample.xlsx"
-    data = pd.read_csv(file_name, encoding='cp949')
+    data = pd.read_csv("./data/bds_data.csv", encoding='cp949')
     data2 = data.copy()
 
     # 실거래 현황

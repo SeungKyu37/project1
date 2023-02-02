@@ -7,7 +7,7 @@ import math
 
 def run_search():
     st.title('전월세 검색')
-    data = pd.read_csv('data/bds_data.csv', encoding='cp949')
+    data = pd.read_csv('./data/bds_data.csv', encoding='cp949')
 
     gu = data['SGG_NM'].unique()
     
