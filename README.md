@@ -45,6 +45,7 @@
 ## Project 3 : MLB Stats
 + 폴더명 : [MLB Stats](https://github.com/SeungKyu37/mlb_stats)
 + 배포 링크 : [MLB Stats](https://mlbstats.streamlit.app/)
++ 인원 : 1명
 + 사용언어 : python
 + 사용툴 : VS code
 + 라이브러리 버전 : 
