@@ -6,6 +6,10 @@
 + 블로그 : https://developerkkyu37.tistory.com/
 
 ## 2. 학력
++ 학교
+  - 상명대학교
+    - 지적재산권전공
+    - 2022.08 졸업
 + 학원
   - 서울 휴먼교육센터
     - Python(파이썬), JAVA(자바)기반 AI활용 소프트웨어 개발 및 응용 과정
@@ -17,6 +21,8 @@
 ## Project 1: 내 방 어디
 + 폴더명 : [내 방 어디](https://github.com/SeungKyu37/project2)
 + 배포 링크 : [내 방 어디](https://seungkyu37-project2-app-3b4qng.streamlit.app/)
++ 발표 영상 : (https://www.youtube.com/watch?v=RbN39pUA1Ww)
++ 데모 시연 : (https://www.youtube.com/watch?v=j3rdthS7PM8)
 + 기간 : 2022.01.30 ~ 2022.02.10
 + 팀인원 : 4명 
 + 사용언어 : Python 3.9.13
