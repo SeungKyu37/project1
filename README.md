@@ -33,7 +33,7 @@
 
 ## Project 2 : Last Carnival
 + 폴더명 : [Last Carnival](https://github.com/SeungKyu37/project)
-+ 배포 링크 : [Last Carnival]()
++ 배포 링크 : [Last Carnival](http://34.64.74.137:8080/)
 + 기간 :
 + 팀 인원 : 4명
 + 사용언어 : Java 17.0.4.1
