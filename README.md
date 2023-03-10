@@ -20,7 +20,7 @@
 
 ## Project 1: 내 방 어디
 + 폴더명 : [내 방 어디](https://github.com/SeungKyu37/project2)
-+ 배포 링크 : [내 방 어디](https://seungkyu37-project2-app-3b4qng.streamlit.app/)
++ 배포 링크 : [내 방 어디](https://myroomwhere.streamlit.app/)
 + 발표 영상 : https://www.youtube.com/watch?v=RbN39pUA1Ww
 + 데모 시연 : https://www.youtube.com/watch?v=j3rdthS7PM8
 + 기간 : 2022.01.30 ~ 2022.02.10
