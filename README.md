@@ -32,13 +32,13 @@
 
 
 ## Project 2 : Last Carnival
-+ 폴더명 : [Last Carnival](https://github.com/SeungKyu37/project)
++ 폴더명 : [Last Carnival](https://github.com/SeungKyu37/last_carnival)
 + 배포 링크 : [Last Carnival](http://34.64.74.137:8080/)
 + 기간 :
 + 팀 인원 : 4명
 + 사용언어 : Java 17.0.4.1
 + 사용툴 : VS code
-+ 프레임워크 및 라이브러리 버전 : 
++ 프레임워크 및 라이브러리 버전 : Spring boot (3.0.4), spring-boot-starter-security(3.0.4), spring-boot-starter-oauth2-client(3.0.4), spring-boot-starter-thymeleaf(3.0.4), thymeleaf-layout-dialect(3.2.0), thymeleaf-extras-springsecurity5(3.1.1), spring-boot-starter-validation(3.0.4), spring-boot-devtools (3.0.4), mybatis-spring-boot-starter(2.3.0), lombok (1.18.26), spring-boot-starter-tomcat (3.0.4), spring-boot-starter-test (3.0.4), tomcat-embed-jasper (10.1.7), spring-boot-starter-data-mongodb (3.0.4), okhttp (4.9.2), commons-io (2.8.0), guava (31.0.1-jre), commons-codec (1.15)
 + 내용 : 해외음원차트 및 음악 커뮤니티
 
 
