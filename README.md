@@ -27,7 +27,7 @@
 + 팀인원 : 4명 
 + 사용언어 : Python 3.9.13
 + 사용툴 : VS code
-+ 라이브러리 버전 : pandas (1.5.3), numpy (1.24.1), plotly (5.13.0), matplotlib (3.6.3), streamlit (1.17.0), streamlit-option-menu (0.3.2), geopandas (0.12.2), google-cloud-bigquery (3.5.0), pandas-gbq (0.19.1), pydeck (0.8.0), yfinance (0.2.9), stqdm (0.0.5), prophet (1.1.2), seaborn (0.12.2), openai (0.26.5), streamlit_chat (0.0.2.1)
++ 라이브러리 버전 : pandas (1.5.3), numpy (1.24.1), plotly (5.13.0), matplotlib (3.6.3), streamlit (1.17.0), streamlit-option-menu (0.3.2), geopandas (0.12.2), pandas-gbq (0.19.1), pydeck (0.8.0), stqdm (0.0.5), prophet (1.1.2), seaborn (0.12.2), openai (0.26.5), streamlit_chat (0.0.2.1), requests (2.28.2v), tensorflow(2.9.0), scikit-learn(1.2.1)
 + 내용 : 서울시 전/월세 실거래 데이터를 기반한 검색, 머신러닝을 이용한 젠세 시세 예측
 
 
