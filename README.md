@@ -36,7 +36,7 @@
 + 내용 : 해외음원차트 및 음악 커뮤니티
 + 폴더명 : [Last Carnival](https://github.com/SeungKyu37/last_carnival)
 + 배포 링크 : [Last Carnival](http://34.64.74.137:8080/)
-+ 기간 :
++ 기간 : 2023.03.27 ~ 2023.04.07
 + 팀 인원 : 4명
 + 사용언어 : Java 17.0.4.1
 + 사용툴 : VS code
