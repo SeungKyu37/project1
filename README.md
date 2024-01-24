@@ -60,8 +60,17 @@
 + 폴더명 : [MLB Stats](https://github.com/SeungKyu37/mlb_stats)
 + 배포 링크 : [MLB Stats](https://mlbstats.streamlit.app/)
 + 인원 : 1명
-+ 사용언어 : python
++ 사용언어 : Python
 + 사용툴 : VS code
-+ 라이브러리 버전 : 
+
+
+  ## Project 4 : Sudoku Classic
++ 내용 : 스도쿠 게임 어플리케이션
++ 폴더명 : [Sudoku Classic](https://github.com/SeungKyu37/Sudoku_Classic)
++ 배포 스토어 : [One Store](https://m.onestore.co.kr/mobilepoc/apps/appsDetail.omp?prodId=0000773793)
++ 인원 : 1명
++ 사용언어 : Kotlin
++ 사용툴 : Android Studio
+
 
  
